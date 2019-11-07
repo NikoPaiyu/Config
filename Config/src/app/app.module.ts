@@ -19,6 +19,7 @@ import { GridActionsComponent } from './components/main/product/grid-actions/gri
 import { ConfigsComponent } from './components/main/configs/configs.component';
 import { CancelComponent } from './components/main/quote/cancel/cancel.component';
 import { PhasesComponent } from './components/main/quote/banner/phases/phases.component';
+import { ConfigHomeComponent } from './components/config-home/config-home.component';
 
 @NgModule({
   declarations: [
@@ -39,7 +40,8 @@ import { PhasesComponent } from './components/main/quote/banner/phases/phases.co
     GridActionsComponent,
     ConfigsComponent,
     CancelComponent,
-    PhasesComponent
+    PhasesComponent,
+    ConfigHomeComponent
   ],
   imports: [
     BrowserModule,
