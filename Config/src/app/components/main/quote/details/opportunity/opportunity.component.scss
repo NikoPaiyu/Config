@@ -4,6 +4,7 @@
 input{
  background-color: transparent;
 }
+input[type="text"] { border: none }
 .grommetux-form-field--text {
     cursor: pointer;
 }
@@ -12,7 +13,7 @@ input{
     padding: 5px 24px;
     border: 1px solid rgba(0,0,0,0.15);
     margin-bottom: -1px;
-    margin-right:990px;
+    margin-right:999px;
     background-color: #fff;
     margin-left:35px;
     color: #333;
@@ -29,62 +30,117 @@ li{
     line-height: 1.23333;
 }
 .Expiry_Date{
-     padding-left: 190px;
+     padding-left: 185px;
+     font-family: Helvetica;
+     font-size: 12px;
 }
 span{
     font-size: 1.40rem;
     line-height: 1.23333;
+    font-family: Helvetica;
+    font-size: 18px;
 }
 .Exp_nil{
     padding-left: 90px;
+    font-family: Arial, Helvetica, sans-serif;
 }
 .Reg_nil{
     padding-left: 250px;
+    font-family: Arial, Helvetica, sans-serif;
 }
 .Deal_reg_stat{
-    padding-left: 145px;
+    padding-left: 160px;
+    font-family: Helvetica;
+    font-size: 12px;
 }
 .By_nil{
-padding-left: 230px;
+padding-left: 220px;
+font-family: Arial, Helvetica, sans-serif;
 }
 .Mod_nil{
-padding-left: 260px;
+padding-left: 250px;
+font-family: Arial, Helvetica, sans-serif;
 }
 .lmod_nil{
-   padding-left: 260px;
+   padding-left: 250px;
+   font-family: Arial, Helvetica, sans-serif;
 }
 .Created_by{
-    padding-left: 185px;
+    padding-left: 180px;
+    font-family: Helvetica;
+    font-size: 12px;
 }
 .Modified_on{
-    padding-left: 213px;
+    padding-left: 210px;
+    font-family: Helvetica;
+    font-size: 12px;
 }
 .Last_Mod_by{
     padding-left: 208px;
+    font-family:Helvetica;
+    font-size: 12px;
 }
 .Opd{
 padding-left: 95px;
+font-family: Arial, Helvetica, sans-serif;
 }
 .Number{
 padding-left: 108px;
+font-family: Arial, Helvetica, sans-serif;
 }
 .Completion_nil{
 padding-left: 260px;
+font-family: Arial, Helvetica, sans-serif;
 }
 .Opp_id{
-padding-left: 195px;
+padding-left: 180px;
+font-family:Helvetica;
+font-size: 12px;
 }
 .Quote_version{
-padding-left: 170px;
+padding-left: 175px;
+font-family: Helvetica;
+font-size: 12px;
 }
 .Completion_date{
-padding-left: 190px;
+padding-left: 205px;
+font-family: Helvetica;
+font-size: 12px;
 }
 h3{
     color:rgb(0, 153, 255);
     margin-left: 35px;
+    font-family: Helvetica;
+    font-size: 16px;
 }
 ::placeholder{
     color:black;
     font-weight:bold;
+}
+.Quote_name{
+    font-family:Helvetica;
+    font-size: 12px;
+}
+.Par_Sales_Rep{
+    font-family:Helvetica;
+    font-size: 12px;
+}
+.Deal_Name{
+    font-family: Helvetica;
+    font-size: 12px;
+}
+.label{
+    font-family: Helvetica;
+}
+.Created_on{
+    font-family: Helvetica;
+    font-size: 12px;
+}
+.Deal_ID{
+    font-family: Helvetica;
+    font-size: 12px;
+}
+.Quote_label,.Custom_Sales_Rep{
+    font-family: Helvetica;
+    font-size: 12px;
 }
