@@ -1,0 +1,90 @@
+.grommetux-form-field:last-child {
+    margin-bottom: 0px;
+}
+input{
+ background-color: transparent;
+}
+.grommetux-form-field--text {
+    cursor: pointer;
+}
+.grommetux-form-field {
+    position: relative;
+    padding: 5px 24px;
+    border: 1px solid rgba(0,0,0,0.15);
+    margin-bottom: -1px;
+    margin-right:990px;
+    background-color: #fff;
+    margin-left:35px;
+    color: #333;
+    opacity: 1;
+}
+.grommet * {
+    box-sizing: inherit;
+}
+div {
+    display: block;
+}
+li{
+    font-size: 1.50rem;
+    line-height: 1.23333;
+}
+.Expiry_Date{
+     padding-left: 190px;
+}
+span{
+    font-size: 1.40rem;
+    line-height: 1.23333;
+}
+.Exp_nil{
+    padding-left: 90px;
+}
+.Reg_nil{
+    padding-left: 250px;
+}
+.Deal_reg_stat{
+    padding-left: 145px;
+}
+.By_nil{
+padding-left: 230px;
+}
+.Mod_nil{
+padding-left: 260px;
+}
+.lmod_nil{
+   padding-left: 260px;
+}
+.Created_by{
+    padding-left: 185px;
+}
+.Modified_on{
+    padding-left: 213px;
+}
+.Last_Mod_by{
+    padding-left: 208px;
+}
+.Opd{
+padding-left: 95px;
+}
+.Number{
+padding-left: 108px;
+}
+.Completion_nil{
+padding-left: 260px;
+}
+.Opp_id{
+padding-left: 195px;
+}
+.Quote_version{
+padding-left: 170px;
+}
+.Completion_date{
+padding-left: 190px;
+}
+h3{
+    color:rgb(0, 153, 255);
+    margin-left: 35px;
+}
+::placeholder{
+    color:black;
+    font-weight:bold;
+}
