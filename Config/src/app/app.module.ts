@@ -20,7 +20,8 @@ import { ConfigsComponent } from './components/main/configs/configs.component';
 import { CancelComponent } from './components/main/quote/cancel/cancel.component';
 import { PhasesComponent } from './components/main/quote/banner/phases/phases.component';
 import { ConfigHomeComponent } from './components/config-home/config-home.component';
-import { OutputComponent } from './components/main/quote/output/output.component';
+import { OutputComponent } from './components/main/quote/details/output/output.component';
+import { PricingandtermsComponent } from './components/main/quote/details/pricingandterms/pricingandterms.component';
 
 @NgModule({
   declarations: [
@@ -43,7 +44,8 @@ import { OutputComponent } from './components/main/quote/output/output.component
     CancelComponent,
     PhasesComponent,
     ConfigHomeComponent,
-    OutputComponent
+    OutputComponent,
+    PricingandtermsComponent
   ],
   imports: [
     BrowserModule,

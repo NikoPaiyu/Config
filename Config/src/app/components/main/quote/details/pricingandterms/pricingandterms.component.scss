@@ -1,0 +1,71 @@
+
+    p{
+        color:blue;
+        font-size:20px;
+        }
+        
+        select{
+        width:300px;
+        border:None;
+        outline:None;
+        height:50px;
+        }
+        
+        div{
+        border:1px solid #EEE;
+        width:300px;
+        }
+        
+        label{
+        color: gray;
+        font-family: Helvetica;
+        font-size: 15px;
+        }
+        
+        select{
+        font-family: Helvetica;
+        width:276px;
+        
+        }
+        
+        h3{
+        color: dodgerblue;
+        }
+        
+        
+        .grommetux-check-box__control {
+            position: relative;
+            top: -1px;
+            display: inline-block;
+            width: 15px;
+            height: 15px;
+            margin-right: 12px;
+            vertical-align: middle;
+            background-color: inherit;
+            border: 2px solid #666;
+            border-radius: 0px 5px;
+        }
+        .grommet * {
+            box-sizing: inherit;
+        }
+        .grommetux-check-box:not(.grommetux-check-box--disabled) {
+            cursor: pointer;
+        }
+        .grommetux-check-box {
+            margin-right: 12px;
+            white-space: nowrap;
+        }
+        .pricing-and-terms-settings{
+        
+        background-position: center right 10px;
+        background-size:15px 15px;
+        background-repeat:no-repeat;
+        }
+        .dropbtn {
+                    -webkit-appearance: none;
+                } 
+img{
+    padding-bottom:5px;
+}
+    
+              
