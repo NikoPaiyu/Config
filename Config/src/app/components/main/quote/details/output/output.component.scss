@@ -112,12 +112,21 @@
       margin-left: 35px;
   }
  .button1{
+     background-image: url('../../../../../../assets/icons/download.svg');
+     background-repeat: no-repeat;
      border-radius: 50%;
+     background-size: 24px;
+     background-position: center;
+
  }
  .labelstyle{
-     padding-left: 279px;
+     padding-left: 225px;
  }
  .button2{
+   background-image: url('../../../../../../assets/icons/e-mail-envelope.svg');
+   background-repeat: no-repeat;
+   background-position: center;
+   background-size: 20px;
      border-radius: 50%;
      margin-left:11px;
  }
