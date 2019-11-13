@@ -23,6 +23,7 @@ import { ConfigHomeComponent } from './components/config-home/config-home.compon
 import { OutputComponent } from './components/main/quote/details/output/output.component';
 import { PricingandtermsComponent } from './components/main/quote/details/pricingandterms/pricingandterms.component';
 import { HttpClientModule } from '@angular/common/http';
+import { AgGridModule } from '@ag-grid-community/angular';
 
 @NgModule({
   declarations: [
@@ -51,7 +52,8 @@ import { HttpClientModule } from '@angular/common/http';
   imports: [
     BrowserModule,
     AppRoutingModule,
-    HttpClientModule
+    HttpClientModule,
+    AgGridModule.withComponents([])
   ],
   providers: [],
   bootstrap: [AppComponent]
