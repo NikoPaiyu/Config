@@ -1,0 +1,32 @@
+label{
+    color: gray;
+    font-family: Helvetica;
+    font-size: 15px;
+}
+
+select{
+    font-family: Helvetica;
+    width:276px;
+}
+
+.cancel_quotebutton{
+    border-top-right-radius: 5px;
+	margin-bottom:20px;
+    border-bottom-left-radius:5px;
+    border: 1px solid #000;
+    width:150px;
+    height:45px;
+	float:left;
+    font-weight: bold;
+	border-color:red;
+	margin:left;
+}
+
+
+
+.comments{
+    border:1px solid #a9a9a9;
+    width:310px;
+    height:120px;
+    padding:20px;
+}
