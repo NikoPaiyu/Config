@@ -27,6 +27,7 @@ import { SearchConfigComponent } from './components/main/configs/search-config/s
 import { SearchCategoryComponent } from './components/main/configs/search-category/search-category.component';
 import { SearchCategoryListComponent } from './components/main/configs/search-category/search-category-list/search-category-list.component';
 import { SearchCategoryConfigResultComponent } from './components/main/configs/search-category/search-category-config-result/search-category-config-result.component';
+import { PaginationComponent } from './components/shared/pagination/pagination.component';
 
 @NgModule({
   declarations: [
@@ -54,7 +55,8 @@ import { SearchCategoryConfigResultComponent } from './components/main/configs/s
     SearchConfigComponent,
     SearchCategoryComponent,
     SearchCategoryListComponent,
-    SearchCategoryConfigResultComponent
+    SearchCategoryConfigResultComponent,
+    PaginationComponent
   ],
   imports: [
     BrowserModule,
