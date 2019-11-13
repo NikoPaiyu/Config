@@ -7,11 +7,12 @@ import { ApiService } from '../../../../../api.service';
   styleUrls: ['./opportunity.component.scss']
 })
 export class OpportunityComponent implements OnInit {
-
+  months :any 
   constructor(private apiService :ApiService) { }
 
   ngOnInit() {
     this.apiService.getCustomerById().subscribe(data => {
+     this.months = data
       console.log(data);
      })  
   }

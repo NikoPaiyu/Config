@@ -2,6 +2,11 @@
     <head>
         <title>Document</title>
     </head>
+    <div> Months :
+        <select>
+            <option *ngFor="let i of months">{{i.id}}</option>
+        </select>
+    </div>
     <h3>Details</h3>
     <form class="grommetux-form grommetux-form--pad-none">
       <div class="grommetux-form-field grommetux-form-field--text grommetux-form-field--size-medium">
