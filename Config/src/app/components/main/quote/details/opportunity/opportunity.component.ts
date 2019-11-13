@@ -12,7 +12,6 @@ export class OpportunityComponent implements OnInit {
 
   ngOnInit() {
     this.apiService.getCustomerById().subscribe(data => {
-     this.months = data
       console.log(data);
      })  
   }
