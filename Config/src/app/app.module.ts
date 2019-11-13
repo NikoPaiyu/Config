@@ -22,6 +22,7 @@ import { PhasesComponent } from './components/main/quote/banner/phases/phases.co
 import { ConfigHomeComponent } from './components/config-home/config-home.component';
 import { OutputComponent } from './components/main/quote/details/output/output.component';
 import { PricingandtermsComponent } from './components/main/quote/details/pricingandterms/pricingandterms.component';
+import { HttpClientModule } from '@angular/common/http';
 
 @NgModule({
   declarations: [
@@ -49,7 +50,8 @@ import { PricingandtermsComponent } from './components/main/quote/details/pricin
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]
