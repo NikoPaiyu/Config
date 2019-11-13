@@ -3,8 +3,9 @@
 </h3>
 <br>
 <button class="button1 leftarrow">
-    Buisness Desktop PC'ss
+    Buisness Desktop PC's
 </button>
+
 <br>
 <button class="button1 leftarrow">
    Mobile Workstations
@@ -31,3 +32,29 @@
             Series
         </h2>
 
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+<div class="tab">
+        <button class="tablinks" onmouseover="openCity(event, 'London')">Buisness Laptop PC's</button>
+        <div id="London" class="tabcontent">
+                <h3>Series</h3>
+                <p>HP Elite x2 1000 Series.</p>
+              </div>
+
+              <script>
+                    function openCity(evt, cityName) {
+                      var i, tabcontent, tablinks;
+                      tabcontent = document.getElementsByClassName("tabcontent");
+                      for (i = 0; i < tabcontent.length; i++) {
+                        tabcontent[i].style.display = "none";
+                      }
+                      tablinks = document.getElementsByClassName("tablinks");
+                      for (i = 0; i < tablinks.length; i++) {
+                        tablinks[i].className = tablinks[i].className.replace(" active", "");
+                      }
+                      document.getElementById(cityName).style.display = "block";
+                      evt.currentTarget.className += " active";
+                    }
+                    </script>
