@@ -1,4 +1,6 @@
 import { Component, OnInit } from '@angular/core';
+import { ApiService } from '../../../../api.service';
+import { Observable } from 'rxjs';
 
 @Component({
   selector: 'app-details',
@@ -7,9 +9,10 @@ import { Component, OnInit } from '@angular/core';
 })
 export class DetailsComponent implements OnInit {
 
-  constructor() { }
+  constructor(private apiService: ApiService) { }
 
   ngOnInit() {
+
   }
 
 }

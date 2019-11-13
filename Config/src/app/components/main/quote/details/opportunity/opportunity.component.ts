@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { ApiService } from '../../../../../api.service';
 
 @Component({
   selector: 'app-opportunity',
@@ -6,10 +7,14 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./opportunity.component.scss']
 })
 export class OpportunityComponent implements OnInit {
-
-  constructor() { }
+  months :any 
+  constructor(private apiService :ApiService) { }
 
   ngOnInit() {
+    this.apiService.getCustomerById().subscribe(data => {
+     this.months = data
+      console.log(data);
+     })  
   }
 
 }
