@@ -24,7 +24,7 @@ import { OutputComponent } from './components/main/quote/details/output/output.c
 import { PricingandtermsComponent } from './components/main/quote/details/pricingandterms/pricingandterms.component';
 import { HttpClientModule } from '@angular/common/http';
 
-import { AgGridModule } from '@ag-grid-community/angular';
+
 import { SearchConfigComponent } from './components/main/configs/search-config/search-config.component';
 import { SearchCategoryComponent } from './components/main/configs/search-category/search-category.component';
 import { SearchCategoryListComponent } from './components/main/configs/search-category/search-category-list/search-category-list.component';
@@ -64,7 +64,6 @@ import { PaginationComponent } from './components/shared/pagination/pagination.c
     BrowserModule,
     AppRoutingModule,
     HttpClientModule,
-    AgGridModule.withComponents([])
   ],
   providers: [],
   bootstrap: [AppComponent]
