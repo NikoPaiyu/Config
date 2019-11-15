@@ -22,13 +22,16 @@ height: 300px;
            
             .search-category-list-item-series {
                 display: none;
-                position: relative;
-                left: 400px;
-                height: 100px;
-                background-color: white;
+                position: absolute;
+                width:250px;
+                left: 310px;
+                height: 500px;
+                background-color:whitesmoke;
+                float:left;
+                z-index:10;
             }
             .desktopimage{
-                background-image: url('../../../../../../assets/images/tv.svg');
+                background-image: url('../../../../../../assets/icons/mail.svg');
                 background-repeat: no-repeat;
                 background-position: center;
                 background-size: 20px;
