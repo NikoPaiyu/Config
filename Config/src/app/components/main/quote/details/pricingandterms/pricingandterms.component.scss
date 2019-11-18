@@ -5,17 +5,19 @@
         }
         
         select{
-        width:300px;
+        width:500px;
         border:None;
         outline:None;
-        height:50px;
+        height:45px;
+        font-family: Helvetica;
         }
         
         
         label{
         color: gray;
         font-family: Helvetica;
-        font-size: 15px;
+        font-size: 13px;
+        padding-left: 10px;
         }
         
         select{
@@ -32,7 +34,6 @@
         h3{
         color: dodgerblue;
         }
-        
         
         .grommetux-check-box__control {
             position: relative;
@@ -64,12 +65,21 @@
         }
         .dropbtn {
                     -webkit-appearance: none;
+                    padding-left: 10px;
+                    font-family: Helvetica;
                 } 
 
 
  input{
      font-family: Helvetica;
      color: gray;
+     margin-left: 200px;
  }
-
+ .pricing-and-terms{
+     margin-left: 200px;
+ }
+body{
+    font-family: Helvetica;
+    font-size: 13px;
+}
               

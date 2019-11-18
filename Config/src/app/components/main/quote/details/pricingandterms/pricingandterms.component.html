@@ -2,20 +2,18 @@
 
 <html>
     <head>
+        
     </head>
     <body>
-    <strong>Pricing and Terms</strong>
-    <h3>Settings</h3>
+    <strong style="margin-left: 200px;">Pricing and Terms</strong>
+    <h3 style="margin-left: 200px;">Settings</h3>
     
     <div class="pricing-and-terms">
         <div class="pricing-and-terms-settings">
             <label>Currency</label>
     
                 <select class="dropbtn">
-    
-                    <option value="01">Singapore Dollar</option>
-                    <option value="02">US Dollar</option>
-                    <option value="03">Rupee</option>
+                    <option *ngFor="let currency of response">{{currency.currency}}</option>
                 </select>
                 <img src="../../../../../../assets/icons/down.svg" height="10" width="10">
         </div>
@@ -23,9 +21,9 @@
         <div>
             <label>Geo</label>
                 <select class="dropbtn">
-                    <option value="01">Singapore</option>
-                    <option value="02">US</option>
-                    <option value="03">India</option>
+                    <option *ngFor="let geo of response">{{geo.geo}}</option>
+                  <!--  <option value="02">US</option>
+                    <option value="03">India</option>-->
                 </select>
             <img src="../../../../../../assets/icons/down.svg" height="10" width="10">
     
@@ -34,9 +32,9 @@
         <div>
             <label>Terms of Delivery</label>
                 <select class="dropbtn">
-                    <option value="01">Mexican Peso</option>
-                    <option value="02">US Dollar</option>
-                    <option value="03">Indian rupees</option>
+                    <option *ngFor="let termsOfDelivery of response">{{termsOfDelivery.termsOfDelivery}}</option>
+               <!--     <option value="02">US Dollar</option>
+                    <option value="03">Indian rupees</option>   -->
                 </select>
             <img src="../../../../../../assets/icons/down.svg" height="10" width="10">
     
@@ -45,8 +43,6 @@
     <br><br>
     
     <input type="checkbox" name="Use Default Price Descriptor" value="Use Default Price Descriptor">Use Default Price Descriptor
-    
-    &nbsp;&nbsp;&nbsp;
     
     <input type="checkbox" name="List Price Only Quote" value="List Price Only Quote">List Price Only Quote
 

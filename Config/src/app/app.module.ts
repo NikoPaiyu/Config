@@ -23,6 +23,8 @@ import { ConfigHomeComponent } from './components/config-home/config-home.compon
 import { OutputComponent } from './components/main/quote/details/output/output.component';
 import { PricingandtermsComponent } from './components/main/quote/details/pricingandterms/pricingandterms.component';
 import { HttpClientModule } from '@angular/common/http';
+
+
 import { SearchConfigComponent } from './components/main/configs/search-config/search-config.component';
 import { SearchCategoryComponent } from './components/main/configs/search-category/search-category.component';
 import { SearchCategoryListComponent } from './components/main/configs/search-category/search-category-list/search-category-list.component';
@@ -61,7 +63,8 @@ import { PaginationComponent } from './components/shared/pagination/pagination.c
   imports: [
     BrowserModule,
     AppRoutingModule,
-    HttpClientModule
+    HttpClientModule,
+  
   ],
   providers: [],
   bootstrap: [AppComponent]
