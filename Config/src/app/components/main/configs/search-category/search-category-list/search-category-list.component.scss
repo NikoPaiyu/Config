@@ -31,7 +31,11 @@ height: 300px;
                 z-index:10;
             }
             .desktopimage{
+
+                background-image: url('../../../../../../assets/images/bill.svg');
+
                 background-image: url('../../../../../../assets/icons/mail.svg');
+
                 background-repeat: no-repeat;
                 background-position: center;
                 background-size: 20px;
