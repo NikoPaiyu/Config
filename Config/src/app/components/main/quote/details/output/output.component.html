@@ -1,12 +1,21 @@
 <h3 class="clr">
     Display Options
 </h3>
+
+
 <button class="dropdown" (click)="outputtype">
     Output Type
-    <p class="font">
-        Standard
-    </p>
+ <ng-container *ngIf="data">
+<select>
+    <option *ngFor="let lang of data.languages">{{lang.name}}</option>
+</select>
+</ng-container>
 </button>
+
+
+
+
+
 <br>
 <button class="dropdown" (click)="outputlang">
     Output Language
