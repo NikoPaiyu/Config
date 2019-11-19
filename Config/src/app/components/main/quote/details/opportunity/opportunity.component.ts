@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { ApiService } from '../../../../../api.service';
-import {AllCommunityModules} from '@ag-grid-community/all-modules';
+
 
 @Component({
   selector: 'app-opportunity',
@@ -36,7 +36,7 @@ rowData = [
     { line: 1.0, qty:0.0,partnumber: '1PV88A',description:'HP Laser Jet Enterprise M507x',listprice:'1,212,61,',stddiscount:0.00,stdnetprice:'1,212,61',restdiscount:0.0,resttype:'%',reqtnet:1212.61 },
 ];
 
-modules = AllCommunityModules;
+
 
   ngOnInit() {
     this.apiService.getCustomerById().subscribe(data => {
