@@ -24,12 +24,19 @@ import { OutputComponent } from './components/main/quote/details/output/output.c
 import { PricingandtermsComponent } from './components/main/quote/details/pricingandterms/pricingandterms.component';
 import { HttpClientModule } from '@angular/common/http';
 
-import { AgGridModule } from '@ag-grid-community/angular';
+
 import { SearchConfigComponent } from './components/main/configs/search-config/search-config.component';
 import { SearchCategoryComponent } from './components/main/configs/search-category/search-category.component';
 import { SearchCategoryListComponent } from './components/main/configs/search-category/search-category-list/search-category-list.component';
 import { SearchCategoryConfigResultComponent } from './components/main/configs/search-category/search-category-config-result/search-category-config-result.component';
 import { PaginationComponent } from './components/shared/pagination/pagination.component';
+import { ConfigDetailComponent } from './components/main/configs/config-detail/config-detail.component';
+import { HardwareComponent } from './components/main/configs/config-detail/hardware/hardware.component';
+import { AccessoriesComponent } from './components/main/configs/config-detail/accessories/accessories.component';
+import { CarepacksComponent } from './components/main/configs/config-detail/carepacks/carepacks.component';
+import { ConfigurationservicesComponent } from './components/main/configs/config-detail/configurationservices/configurationservices.component';
+import { DeploymentservicesComponent } from './components/main/configs/config-detail/deploymentservices/deploymentservices.component';
+import { BomComponent } from './components/main/configs/config-detail/bom/bom.component';
 
 @NgModule({
   declarations: [
@@ -58,13 +65,20 @@ import { PaginationComponent } from './components/shared/pagination/pagination.c
     SearchCategoryComponent,
     SearchCategoryListComponent,
     SearchCategoryConfigResultComponent,
-    PaginationComponent
+    PaginationComponent,
+    ConfigDetailComponent,
+    HardwareComponent,
+    AccessoriesComponent,
+    CarepacksComponent,
+    ConfigurationservicesComponent,
+    DeploymentservicesComponent,
+    BomComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     HttpClientModule,
-    AgGridModule.withComponents([])
+  
   ],
   providers: [],
   bootstrap: [AppComponent]

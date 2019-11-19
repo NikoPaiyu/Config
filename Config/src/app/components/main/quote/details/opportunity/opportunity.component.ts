@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { ApiService } from '../../../../../api.service';
-import {AllCommunityModules} from '@ag-grid-community/all-modules';
+
 
 @Component({
   selector: 'app-opportunity',
@@ -12,8 +12,11 @@ export class OpportunityComponent implements OnInit {
     throw new Error("Method not implemented.");
   }
 
+
   
   constructor(private apiService :ApiService) { }
+
+
 
 
 }
