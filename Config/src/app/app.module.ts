@@ -32,6 +32,11 @@ import { SearchCategoryConfigResultComponent } from './components/main/configs/s
 import { PaginationComponent } from './components/shared/pagination/pagination.component';
 import { ConfigDetailComponent } from './components/main/configs/config-detail/config-detail.component';
 import { HardwareComponent } from './components/main/configs/config-detail/hardware/hardware.component';
+import { AccessoriesComponent } from './components/main/configs/config-detail/accessories/accessories.component';
+import { CarepacksComponent } from './components/main/configs/config-detail/carepacks/carepacks.component';
+import { ConfigurationservicesComponent } from './components/main/configs/config-detail/configurationservices/configurationservices.component';
+import { DeploymentservicesComponent } from './components/main/configs/config-detail/deploymentservices/deploymentservices.component';
+import { BomComponent } from './components/main/configs/config-detail/bom/bom.component';
 
 @NgModule({
   declarations: [
@@ -62,7 +67,12 @@ import { HardwareComponent } from './components/main/configs/config-detail/hardw
     SearchCategoryConfigResultComponent,
     PaginationComponent,
     ConfigDetailComponent,
-    HardwareComponent
+    HardwareComponent,
+    AccessoriesComponent,
+    CarepacksComponent,
+    ConfigurationservicesComponent,
+    DeploymentservicesComponent,
+    BomComponent
   ],
   imports: [
     BrowserModule,
