@@ -1,5 +1,6 @@
 header{
 	font-family:Helvetica;
+	font-weight:20px;
 }
 
 .Number{
@@ -7,11 +8,14 @@ header{
 	text-align:left;
 	font-family:Helvetica;
 	font-weight:15px;
+	padding:0px;
+	margin:left;
 	}
 
 .MDCP{
 	font-size:15px;
 	font-family:Helvetica;
+	font-weight:20px;
 	
 }	
 	
@@ -44,7 +48,9 @@ input{
     border-radius: 25px;
     text-align: center;
     float:left;
-    background-color: white;
+	background-color: white;
+	font-family:Helvetica;
+	font-weight:20px;
 }
 .leftPanel{
     width: 45%;
@@ -52,26 +58,33 @@ input{
     float: left;
     text-align: top;
     padding-bottom :80px 0 0 0;
-    width: 50%;
-
+	width: 50%;
+	font-family:Helvetica;
+	font-weight:20px;
 }
 .grommetux-form-field:last-child {
-    margin-bottom: 0px;
+	margin-bottom: 0px;
+	padding:0px;
 }
 
 .grommetux-form-field__contents{
-	margin-left:0px;
-	padding:0px;
+	margin:left;
+	padding-left:10px;
 	text-align:left;
 	
 }
 
+.grommetux-form_contents{
+	width:100px;
+	height:100px;
+}
 .grommetux-form-field--text {
     cursor: pointer;
 }
 span{
     font-size: 1.40rem;
-    line-height: 1.23333;
+	line-height: 1.23333;
+	padding:0px;
 }
 .grommetux-form-fiel{
     position: relative;
@@ -95,13 +108,16 @@ span{
     text-align: left;
     padding-right: 20px;
 	font-family:Helvetica;
+	font-weight:20px;
 }
 .rightPanel{
     width: 45%;
     height: 100%;
     float: right;
     text-align: top;
-    padding-top: 0px;
+	padding-top: 0px;
+	font-family:Helvetica;
+	font-weight:20px;
 }
 
 div{
@@ -118,6 +134,8 @@ div{
 	width:5px;
 	height:10px;
 	padding:buttom;
+	font-family:Helvetica;
+	font-weight:20px;
 }
 
 .panel2{
@@ -132,7 +150,9 @@ div{
     border-radius: 25px;
     text-align: center;
     float:left;
-    background-color: white;
+	background-color: white;
+	font-family:Helvetica;
+	font-weight:20px;
 }
 	
 
@@ -143,6 +163,8 @@ div{
 	text-align:left;
 	background-color: white;
 	border:none;
+	font-family:Helvetica;
+	font-weight:20px;
 }
 
 .buttomPanel-right{
@@ -152,6 +174,8 @@ div{
 	text-align:left;
 	background-color: white;
 	border:none;
+	font-family:Helvetica;
+	font-weight:20px;
 }
 checkbox{
 	padding-left:60px;;
@@ -166,12 +190,16 @@ checkbox{
 	margin-left:55px;
 	background-color: white;
 	border:none;
+	font-family:Helvetica;
+	font-weight:20px;
 }
 
 .New_Del{
 	text-align:left;
 	float:left;
 	margin-left:0px;
+	font-family:Helvetica;
+	font-weight:20px;
 }
 
 .New_number{
@@ -179,6 +207,8 @@ checkbox{
 	float:top;
 	margin:top;
 	padding-right:20px;
+	font-family:Helvetica;
+	font-weight:20px;
 }
 
 	
@@ -195,7 +225,9 @@ checkbox{
     border-radius: 25px;
     text-align: left;
     float:left;
-    background-color: white;
+	background-color: white;
+	font-family:Helvetica;
+	font-weight:20px;
 }
 
 .dropdown {
@@ -219,6 +251,8 @@ checkbox{
 	text-align:left;
 	background-color: white;
 	border:none;
+	font-family:Helvetica;
+	font-weight:20px;
 }
 	
 
@@ -230,6 +264,8 @@ checkbox{
 	margin:left;
 	background-color: white;
 	border:none;
+	font-family:Helvetica;
+	font-weight:20px;
 	
 }
 	
@@ -243,6 +279,8 @@ checkbox{
 	border:none;
 	padding:left;
 	margin:left;
+	font-family:Helvetica;
+	font-weight:20px;
 }
 
 	
@@ -255,6 +293,8 @@ checkbox{
 	text-align:buttom;
 	background-color: white;
 	border:none;
+	font-family:Helvetica;
+	font-weight:20px;
 }
 	
 .Address_Auto{
@@ -279,6 +319,9 @@ checkbox{
 	width:25px;
 	height:35px;
 	padding:buttom;
+	font-family:Helvetica;
+	font-weight:20px;
+	font-size:25px;
 }
 
 .Refresh_button{
@@ -288,7 +331,9 @@ checkbox{
     width:190px;
     height:50px;
 	float:left;
-    font-weight: bold;
+	font-weight: bold;
+	font-family:Helvetica;
+	font-weight:20px;
 }
 .Populate_button{
 	border-top-right-radius: 5px;
@@ -299,6 +344,8 @@ checkbox{
             font-weight: bold;
 			background-color:white;
 			border-color:black;
+			font-family:Helvetica;
+			font-weight:20px;
 			
 			
 }
@@ -317,7 +364,7 @@ button{
 	border-top-right-radius: 5px;
 	margin-bottom:20px;
     border-bottom-left-radius:5px;
-    border: 1px solid #000;
+    border: 3px solid #000;
     width:300px;
     height:45px;
 	float:left;
@@ -331,7 +378,7 @@ button{
 .cancel_refresh{
 	border-top-right-radius: 5px;
     border-bottom-left-radius:5px;
-    border: 1px solid #000;
+    border: 3px solid #000;
     width:300px;
     height:45px;
 	float:left;
@@ -413,16 +460,19 @@ hr {
 .Sold_Add{
 	color:blue;
 	font-family:Helvetica;
+	font-size:20px;
 }
 
 .Bill_Add{
 	color:blue;
 	font-family:Helvetica;
+	font-size:20px;
 }
 
 .Ship_Add{
 	color:blue;
 	font-family:Helvetica;
+	font-size:20px;
 }
 header{
 	color:blue;
