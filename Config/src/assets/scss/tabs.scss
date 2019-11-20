@@ -14,10 +14,14 @@
                 border : 0px;
                 padding-left: 0px;
                 padding-right: 0px;
+                color: #666;
+                font-family: MetricHPE-Regular;
     
     
                 &.active {
                     border-bottom: 2px solid #333;
+                    color: #333 !important;
+                    font-family: MetricHPE-Medium;
                 }
             }
 
