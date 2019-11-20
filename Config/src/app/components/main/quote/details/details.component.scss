@@ -1,0 +1,9 @@
+@import '../../../../../assets/scss/variable.scss';
+
+.quote-details {
+    border-bottom: 1px solid $divider-color;
+
+    .quoteDetails-list {
+        margin-top: 10px;
+    }
+}

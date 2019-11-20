@@ -1,6 +1,11 @@
 /* You can add global styles to this file, and also import other style files */
 
 @import './assets/scss/button.scss';
+@import './assets/scss/ripple.scss';
 @import './assets/scss/margin.scss';
-@import "~@ag-grid-community/all-modules/dist/styles/ag-grid.css";
-@import "~@ag-grid-community/all-modules/dist/styles/ag-theme-balham.css";
+@import './assets/scss/tabs.scss';
+@import './assets/scss/variable.scss';
+@import './assets/scss/accordion.scss';
+@import './assets//scss/base.scss';
+@import './assets//scss/labelAndValue.scss';
+@import 'node_modules/bootstrap/scss/bootstrap.scss';

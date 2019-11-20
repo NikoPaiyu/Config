@@ -1,0 +1,16 @@
+.status-ripple {
+    background-color: #97D7EF;
+    height: 20px;
+    width: 20px;
+    border-radius: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .ripple {
+        background-color: #fff;
+        height: 10px;
+        width: 10px;
+        border-radius: 100px;
+    }
+}

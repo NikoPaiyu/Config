@@ -13,23 +13,21 @@ import { TotalsComponent } from './components/main/quote/totals/totals.component
 import { DialogComponent } from './components/shared/dialog/dialog.component';
 import { ActionComponent } from './components/main/quote/action/action.component';
 import { BannerComponent } from './components/main/quote/banner/banner.component';
-import { ProductComponent } from './components/main/product/product.component';
-import { GridComponent } from './components/main/product/grid/grid.component';
-import { GridActionsComponent } from './components/main/product/grid-actions/grid-actions.component';
+import { ProductComponent } from './components/main/quote/product/product.component';
+import { GridComponent } from './components/main/quote/product/grid/grid.component';
+import { GridActionsComponent } from './components/main/quote/product/grid-actions/grid-actions.component';
 import { ConfigsComponent } from './components/main/configs/configs.component';
 import { CancelComponent } from './components/main/quote/cancel/cancel.component';
 import { PhasesComponent } from './components/main/quote/banner/phases/phases.component';
-import { ConfigHomeComponent } from './components/config-home/config-home.component';
 import { OutputComponent } from './components/main/quote/details/output/output.component';
 import { PricingandtermsComponent } from './components/main/quote/details/pricingandterms/pricingandterms.component';
 import { HttpClientModule } from '@angular/common/http';
-
-
 import { SearchConfigComponent } from './components/main/configs/search-config/search-config.component';
 import { SearchCategoryComponent } from './components/main/configs/search-category/search-category.component';
 import { SearchCategoryListComponent } from './components/main/configs/search-category/search-category-list/search-category-list.component';
 import { SearchCategoryConfigResultComponent } from './components/main/configs/search-category/search-category-config-result/search-category-config-result.component';
 import { PaginationComponent } from './components/shared/pagination/pagination.component';
+import { HomeComponent } from './components/home/home.component';
 
 @NgModule({
   declarations: [
@@ -51,14 +49,14 @@ import { PaginationComponent } from './components/shared/pagination/pagination.c
     ConfigsComponent,
     CancelComponent,
     PhasesComponent,
-    ConfigHomeComponent,
     OutputComponent,
     PricingandtermsComponent,
     SearchConfigComponent,
     SearchCategoryComponent,
     SearchCategoryListComponent,
     SearchCategoryConfigResultComponent,
-    PaginationComponent
+    PaginationComponent,
+    HomeComponent
   ],
   imports: [
     BrowserModule,

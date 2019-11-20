@@ -1,0 +1,81 @@
+@import "../../../../../assets/scss/variable.scss";
+
+.banner {
+    margin-left: 40px;
+    margin-right: 40px;
+
+    .banner-main {
+        width: 100%;
+        height: 250px;
+        background: linear-gradient(180deg ,$banner-gradient-color-one,$banner-gradient-color-two);
+        // background-color: #0096d6;
+        border-radius: 0px 50px;
+        padding-top: 30px;
+        padding-bottom: 30px;
+
+        .banner-phase {
+           margin-bottom: 40px;
+        }
+
+
+        .banner-quote {
+            padding-left: 10px;
+            padding-right: 10px;
+            display: flex;
+            justify-content: space-between;
+
+            .banner-quote-customer {
+
+                ul {
+
+                    li {
+                        display: inline-block;
+                        padding-left: 40px;
+
+                        &:nth-child(1){
+                            padding-left: 0px;
+                        }
+                    }
+                }
+
+            }
+
+            .banner-quote-status {
+                ul {
+                    li {
+                        display: flex;
+                        align-items: flex-start;
+                    }
+                }
+            }
+        }
+
+    }
+
+    .overlay {
+        position: absolute;
+        height: 250px;
+        border-radius: 0px 50px;
+        padding-top: 30px;
+        padding-bottom: 30px;
+        z-index: -1;
+        right: 30px;
+        left:70px;
+        top: 100px;
+
+        &.overlay-color  {
+            right: 22px;
+            top: 108px;
+        }
+    }
+
+    .overlay-color {
+        background-color: #CCEAF8;
+    }
+
+    .overlay-color-secondary {
+        background-color: #A3D9F3;
+    }
+
+  
+}

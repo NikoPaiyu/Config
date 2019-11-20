@@ -1,0 +1,40 @@
+@import '../scss//variable.scss';
+
+
+button {
+    outline: none !important;
+}
+
+.config-button {
+    height: 40px;
+    padding-left: 30px;
+    padding-top: 6px;
+    padding-right: 30px;
+    border: 2px solid $primary-color;
+    color: $font-color-primary;
+    font-family: MetricHPE-Medium;
+    font-size: 18px;
+    background: transparent;
+    border-radius: 0px 6px;
+    cursor: pointer;
+    outline: none;
+}
+
+.config-button-primary {
+    background:$primary-color ;
+    color: #fff;
+    border: 0px;
+}
+
+.config-button-secondary {
+    border: 2px solid $secondary-color;
+    color: $font-color-primary;
+    font-family: MetricHPE-Medium;
+}
+
+.config-button-accent {
+    border: 0px ;
+    background-color: $accent-color !important;
+    color: #fff;
+    font-family: MetricHPE-Medium;
+}
