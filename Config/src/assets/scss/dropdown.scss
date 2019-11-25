@@ -1,0 +1,27 @@
+@import './variable.scss';
+
+.config-dropdown{
+
+    label{
+    
+    color: $config-secondary-color;
+    display: block;
+    margin-bottom: 5px;
+
+    }
+
+
+    select{
+        height: 40px;
+        width: 200px;
+        border-radius: 0px 6px;
+        border: 2px solid $config-plain-border-button;
+        color: #333333;
+        background-color: $config-sec-background;
+        margin-bottom: 15px;
+    }
+
+
+
+
+}

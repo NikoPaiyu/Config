@@ -1,0 +1,12 @@
+.list-horizontal {
+
+    li {
+        display: inline-block;
+        margin-left: 10px;
+
+       &:nth-child(1){
+        margin-left: 0px;  
+       }
+
+    }
+}

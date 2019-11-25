@@ -1,0 +1,29 @@
+@import './variable.scss';
+
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    margin-right: 2px;
+    padding-bottom: 30px;
+    padding-top: 30px;
+    
+
+    .header-left {
+
+        font-size: 20px;
+        font-family: Lato;
+        font-weight: 600;
+        color: #333333;
+        
+    }
+
+    .header-right {
+
+    }
+}
+
+
+
+

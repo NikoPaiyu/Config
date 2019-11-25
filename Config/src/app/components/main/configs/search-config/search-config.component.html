@@ -1,4 +1,4 @@
-<h3>
+<!-- <h3>
     Model Configuration
 </h3>
 <button class="buttongrp1">
@@ -15,4 +15,40 @@
 <input type="radio" name="search by" value="Config Name">Config Name
 <input type="radio" name="search by" value="Created By Email">Created by mail
 <input type="radio" name="search by" value="Customer ID (MDCP ID)">Customer ID (MDCP ID)<br><br>
-<input type="text" name="search by" style="width:500px">
+<input type="text" name="search by" style="width:500px"> -->
+
+
+<div class="container">
+    <h3 class="config-secondary-heading">
+        Model Configuration
+    </h3>
+    <h2 class="config-heading">
+        Search by
+    </h2>
+    <ul class="list-horizontal">
+    <div>
+        <li class="radio-padding">
+            <input class="container" type="radio" name="search by" value="none"> None
+            <span class="check"></span>
+        </li>
+        <li class="radio-padding">
+            <input class="radio-button" type="radio" name="search by" value="Config Id"> Config Id
+        </li>
+        <li class="radio-padding">
+            <input class="radio-button" type="radio" name="search by" value="none"> Config Name
+        </li>
+        <li class="radio-padding">
+            <input class="radio-button" type="radio" name="search by" value="none"> Created by mail
+        </li>
+        <li class="radio-padding">
+                <input class="radio-button" type="radio" name="search by" value="none"> Customer ID (MDCP ID)
+        </li>
+    </div>
+    </ul>
+
+    <div>
+        <input class="search" type="text" placeholder="Search by">
+    </div>
+
+</div>
+

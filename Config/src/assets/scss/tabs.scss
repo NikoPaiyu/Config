@@ -1,0 +1,15 @@
+@import './variable.scss';
+
+.search{
+
+    display: block;
+    color: $config-search-box;
+    width: 847px;
+    height: 40px;
+    border: none;
+    background-color:#f6f6f6;
+    padding-left: 16px;
+    margin-top: 10px;
+    
+    }
+    

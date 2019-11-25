@@ -1,0 +1,74 @@
+@import './variable.scss';
+
+.config-button{
+    
+    border-radius: 0px 6px;
+    font-size: 16px;
+    font-family:Lato;
+    font-weight: 600;
+    height: 40px;
+    padding-right: 30PX;
+    padding-left: 30px;
+}
+.config-primary-button{
+ 
+    background-color: $config-primary-color;
+    border: 0px;
+    color:$font-text-color;
+
+}
+
+.config-secondary-button{
+
+     background-color: $config-sec-background;
+     border: 2px solid $config-secondary-color;
+     color: #333333;
+
+}
+
+.config-tertiary-button{
+    background-color: $config-sec-background;
+     border: 2px solid $config-primary-color;
+     color: #333333;
+}
+
+.config-accent-button{
+    background-color: $config-accent-color;
+    border: 0px;
+    color:$font-text-color;
+}
+
+.config-plain-button{
+    background-color:$config-sec-background;
+    border: none;
+    color: #333333;
+    font-weight: 400;
+}
+
+.config-plain-border-button{
+       
+    background-color:$config-sec-background;
+    border: 1px solid $config-plain-border-button;
+    color: #333333;
+    font-weight: 400;
+}
+
+.config-round-button{
+    
+    border: none;
+    color: $config-sec-background;
+    background-color: $config-primary-color;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-left: 5px;
+    margin-top: 2px;
+    margin-bottom: 3px;
+    display: inline-block;
+    padding-bottom: 13px;
+    padding-right: 3px;
+    
+}
+
+
+
