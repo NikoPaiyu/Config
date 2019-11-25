@@ -19,6 +19,10 @@ export class ApiService {
 
   getApiPricing() : Observable<any[]> {
      return this.Http_Get('/api/pricing');
+  }
+
+  searchConfig(configId: string): Observable<any>{
+    return this.Http_Get('/api/configid/' + configId);
 
   }
 
@@ -39,4 +43,7 @@ export class ApiService {
         catchError((error: any) => Observable.throw('Error'))
       )
   }
+
+
+
 }

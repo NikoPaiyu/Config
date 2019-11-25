@@ -47,7 +47,20 @@
     </ul>
 
     <div>
-        <input class="search" type="text" placeholder="Search by">
+        <input class="search" [(ngModel)]="configSearch.searchTitle" type="text" placeholder="Search by">
+    </div>
+
+    <div class='config-search-result'>
+
+        <label>
+            Config ID
+        </label>
+
+        <span>
+            {{}}
+        </span>
+        
+
     </div>
 
 </div>
