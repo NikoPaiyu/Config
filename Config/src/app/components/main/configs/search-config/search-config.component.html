@@ -1,1 +1,29 @@
-<p>search-config works!</p>
+
+<div class="search-config">
+
+    <h6 class="heading">Search By</h6>
+
+    <div class="search-config-selection">
+
+        <ul class="list">
+
+            <li *ngFor="let radio of radioButtonsArr">
+
+                <label class="radio-container">
+                    <span>{{radio.name}}</span>
+                    <input type="radio" name="radio">
+                    <span class="checkmark"></span>
+                </label>
+
+            </li>
+
+        </ul>
+
+    </div>
+
+
+    <div class="search-config-search">
+        <input type="text" id="config-input-search" class="icon-search" placeholder="Search Config">
+    </div>
+
+</div>

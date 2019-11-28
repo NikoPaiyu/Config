@@ -1,0 +1,17 @@
+.search-category {
+    padding-top: 40px;
+    padding-bottom: 40px;
+    display: flex;
+    flex-direction: row;
+
+
+    .search-category-list {
+        flex : 30%;
+    }
+
+    .search-category-config-result-list {
+        margin-left: 20px;
+        flex : 70%;
+    }
+
+}

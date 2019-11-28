@@ -1,4 +1,7 @@
-import { Component, OnInit } from '@angular/core';
+import {
+  Component,
+  OnInit
+} from '@angular/core';
 
 @Component({
   selector: 'app-search-config',
@@ -7,9 +10,25 @@ import { Component, OnInit } from '@angular/core';
 })
 export class SearchConfigComponent implements OnInit {
 
-  constructor() { }
+  constructor() {}
 
-  ngOnInit() {
-  }
+  radioButtonsArr = [{
+      name: 'None'
+    },
+    {
+      name: 'Config Id'
+    },
+    {
+      name: 'Config Name'
+    },
+    {
+      name: 'Created By Email'
+    },
+    {
+      name: 'CustomerID ( MDCP ID)'
+    }
+  ];
+
+  ngOnInit() {}
 
 }

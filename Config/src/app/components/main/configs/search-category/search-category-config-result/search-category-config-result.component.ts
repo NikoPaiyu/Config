@@ -9,6 +9,48 @@ export class SearchCategoryConfigResultComponent implements OnInit {
 
   constructor() { }
 
+  // configResult = [
+  //   {
+  //     'name' : 'Elite x2 1012G2BMI',
+  //     'baseUnit' : '2PD83AV'
+  //   },
+  //   {
+  //     'name' : 'Elite x2 1012G2BMI',
+  //     'baseUnit' : '2PD83AV'
+  //   },
+  //   {
+  //     'name' : 'Elite x2 1012G2BMI',
+  //     'baseUnit' : '2PD83AV'
+  //   },
+  //   {
+  //     'name' : 'Elite x2 1012G2BMI',
+  //     'baseUnit' : '2PD83AV'
+  //   },
+  //   {
+  //     'name' : 'Elite x2 1012G2BMI',
+  //     'baseUnit' : '2PD83AV'
+  //   },
+  //   {
+  //     'name' : 'Elite x2 1012G2BMI',
+  //     'baseUnit' : '2PD83AV'
+  //   },
+  //   {
+  //     'name' : 'Elite x2 1012G2BMI',
+  //     'baseUnit' : '2PD83AV'
+  //   },
+  //   {
+  //     'name' : 'Elite x2 1012G2BMI',
+  //     'baseUnit' : '2PD83AV'
+  //   },
+  //   {
+  //     'name' : 'Elite x2 1012G2BMI',
+  //     'baseUnit' : '2PD83AV'
+  //   }
+    
+  // ]
+
+  configResult = [];
+
   ngOnInit() {
   }
 

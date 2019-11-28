@@ -7,6 +7,29 @@ import { Component, OnInit } from '@angular/core';
 })
 export class SearchCategoryListComponent implements OnInit {
 
+  categoryList = [
+    {
+      name : 'Business Desktop PC',
+     
+    },
+    {
+      name : 'Business Laptop PC',
+
+    },
+    {
+      name : 'Mobile Workstation',
+
+    },
+    {
+      name : 'Point of Sales',
+    
+    },
+    {
+       name : 'Workstations',
+       icon : ''
+    }
+  ]
+
   constructor() { }
 
   ngOnInit() {

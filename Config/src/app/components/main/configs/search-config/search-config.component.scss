@@ -1,0 +1,26 @@
+.search-config {
+    padding-top : 40px;
+    padding-bottom: 40px;
+
+    .search-config-selection {
+
+        .list {
+
+            li {
+                width: auto;
+                margin-left: 30px;
+
+
+                &:nth-child(1){
+                    margin-left: 0px;
+                }
+            }
+        }
+    }
+
+    .search-config-search {
+        padding-top: 15px ;
+        padding-bottom: 15px;
+    }
+
+}

@@ -1,0 +1,34 @@
+.search-config-result {
+
+
+    ul {
+
+        li {
+            border-bottom: 1px solid #eee;
+            border-top: 1px solid #eee;
+            height: 50px;
+            color: #666;
+            padding-top: 15px;
+            padding-bottom: 4px;
+            margin-top: -1px;
+        }
+    }
+}
+
+.search-config-result-noresults {
+    text-align: center;
+
+
+    label {
+   
+        font-size: 20px;
+        font-family: MetricHPE-Regular;
+    }
+
+    p {
+
+        font-size: 18px;
+        font-family: MetricHPE-Light;
+    }
+
+}

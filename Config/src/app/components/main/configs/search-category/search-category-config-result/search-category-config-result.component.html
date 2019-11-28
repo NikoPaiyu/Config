@@ -1,0 +1,16 @@
+<div *ngIf="configResult.length > 0" class="search-config-result">
+    <ul>
+
+        <li *ngFor="let configResult of configResult" class="icon-arrow-right">
+           <span>{{configResult.name}}</span><span>Base Unit : {{configResult.baseUnit}}</span>     
+        </li>
+
+    </ul>
+</div>
+
+<div *ngIf="configResult.length === 0" class="search-config-result-noresults">
+
+    <div class="noresults-image"></div>
+    <label>Dont Get Lost</label>
+    <p>You can select the categories from the left side menu</p>
+</div>

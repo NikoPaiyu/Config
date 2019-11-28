@@ -2,8 +2,56 @@
 
 
 button {
-    outline: none !important;
+  outline: none !important;
 }
+
+// .config-button-wrapper {
+//   display: flex;
+//   position: relative;
+
+
+//   &:hover .config-button-animate{
+//     transition: ease 0.5s all;
+//     width : 150px;
+    
+//   }
+
+//   &:hover .config-button{
+//  color: #fff !important;
+    
+//   }
+
+//   .config-button-animate {
+//     transition: ease 0.5s width;
+//     width: 0px;
+//     height: 40px;
+//     background: $primary-color;
+//     position: absolute;
+//     z-index: -1;
+//     border-radius: 0px 6px;
+//   }
+
+//   .config-button {
+//     height: 40px;
+//     padding-left: 30px;
+//     min-width: 150px;
+//     padding-top: 6px;
+//     padding-right: 30px;
+//     border: 2px solid $primary-color;
+//     color: $font-color-primary;
+//     font-family: MetricHPE-Medium;
+//     font-size: 18px;
+//     background: transparent;
+//     border-radius: 0px 6px;
+//     cursor: pointer;
+//     outline: none;
+//   }
+
+// }
+
+
+
+
 
 .config-button {
     height: 40px;

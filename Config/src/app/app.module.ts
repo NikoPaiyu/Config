@@ -28,6 +28,7 @@ import { SearchCategoryListComponent } from './components/main/configs/search-ca
 import { SearchCategoryConfigResultComponent } from './components/main/configs/search-category/search-category-config-result/search-category-config-result.component';
 import { PaginationComponent } from './components/shared/pagination/pagination.component';
 import { HomeComponent } from './components/home/home.component';
+import { ConfigHeaderComponent } from './components/shared/header/config-header/config-header.component';
 
 @NgModule({
   declarations: [
@@ -56,7 +57,8 @@ import { HomeComponent } from './components/home/home.component';
     SearchCategoryListComponent,
     SearchCategoryConfigResultComponent,
     PaginationComponent,
-    HomeComponent
+    HomeComponent,
+    ConfigHeaderComponent
   ],
   imports: [
     BrowserModule,

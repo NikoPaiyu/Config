@@ -1,0 +1,24 @@
+.config-header-wrapper {
+    border-bottom: 1px solid #eee;
+    
+
+    .container {
+        .config-header-container {
+            display: flex;
+            justify-content: space-between;
+            padding-top: 20px;
+            padding-bottom: 20px;
+            align-items: center;
+
+            .config-header-title {
+                font-size: 20px;
+                font-family: MetricHPE-Semibold;
+            }
+        
+            .config-header-logo {
+                width: 50px;
+                height: 50px;
+            }
+        }
+    }
+}

@@ -2,6 +2,8 @@
 * {
     padding : 0;
     margin : 0;
+    outline: none !important;
+    box-sizing: border-box !important;
 }
 
 body {
@@ -16,4 +18,14 @@ ul {
 
 label {
     margin-bottom : 0px !important;
+}
+
+::placeholder {
+    font-family: MetricHPE-Light;
+}
+
+select {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
 }

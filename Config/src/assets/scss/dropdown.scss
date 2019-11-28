@@ -1,0 +1,27 @@
+@import './variable.scss';
+
+.config-dropdown {
+
+
+    label {
+        color: $secondary-color;
+        font-size: 14px;
+        display: block;
+    }
+
+    select {
+        border : 2px solid $select-border-color;
+        border-radius: 0px 6px;
+        color: $font-color-primary;
+        padding-top: 5px;
+        padding-left: 15px;
+        padding-right: 15px;
+        height: 40px;
+        background: transparent;
+        width: 200px;
+        min-width: 150px;
+    }
+
+
+
+}
